@@ -15,7 +15,11 @@ static int poly1305_auth_binding(lua_State *L) {
   return 1;
 }
 
-int luaopen_mylib(lua_State *L) {
-  lua_pushcfunction(L, poly1305_auth_binding);
+static struct luaL_Reg lib[] = {
+  {"auth", poly1305_auth_binding}
+};
+
+int luaopen_poly1305(lua_State *L) {
+  luaL_newlib(L, lib);
   return 1;
 }
