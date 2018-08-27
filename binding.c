@@ -1,7 +1,7 @@
 #include "lua.h"
 #include "lualib.h"
 #include "lauxlib.h"
-#include "poly1305-donna.c"
+#include "poly1305-donna.h"
 
 static int poly1305_auth_binding(lua_State *L) {
   unsigned char *msg = luaL_checkstring(L, 1);
