@@ -1,9 +1,8 @@
 package = "poly1305"
-version = "1.0-1"
+version = "1.0-2"
 
 source = {
-  url = "git://github.com/tock203/poly1305.lua.git",
-  tag = "v1.0"
+  url = "https://github.com/nayutaco/poly1305.lua/releases/download/v1.0/poly1305-1.0.tar.gz"
 }
 
 description = {
