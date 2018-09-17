@@ -6,8 +6,8 @@ source = {
 }
 
 description = {
-  summary = "C binding for https://github.com/floodyberry/poly1305-donna",
-  homepage = "http://github.com/tock203/poly1305-donna",
+  summary = "Lua binding for https://github.com/floodyberry/poly1305-donna",
+  homepage = "http://github.com/nayutaco/poly1305.lua",
   license = "MIT"
 }
 

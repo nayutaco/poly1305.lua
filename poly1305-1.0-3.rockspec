@@ -1,13 +1,13 @@
 package = "poly1305"
-version = "1.0-2"
+version = "1.0-3"
 
 source = {
   url = "https://github.com/nayutaco/poly1305.lua/releases/download/v1.0/poly1305-1.0.tar.gz"
 }
 
 description = {
-  summary = "C binding for https://github.com/floodyberry/poly1305-donna",
-  homepage = "http://github.com/tock203/poly1305-donna",
+  summary = "Lua binding for https://github.com/floodyberry/poly1305-donna",
+  homepage = "http://github.com/nayutaco/poly1305.lua",
   license = "MIT"
 }
 
