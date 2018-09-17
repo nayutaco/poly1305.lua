@@ -2,13 +2,13 @@ package = "poly1305"
 version = "scm-1"
 
 source = {
-  url = "git://github.com/tock203/poly1305.git",
+  url = "git://github.com/tock203/poly1305.git"
 }
 
 description = {
   summary = "C binding for https://github.com/floodyberry/poly1305-donna",
   homepage = "http://github.com/tock203/poly1305-donna",
-  license = "MIT",
+  license = "MIT"
 }
 
 dependencies = {"lua == 5.2"}
