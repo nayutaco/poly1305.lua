@@ -2,7 +2,7 @@ package = "poly1305"
 version = "scm-1"
 
 source = {
-  url = "git://github.com/tock203/poly1305.git"
+  url = "git://github.com/tock203/poly1305.lua.git"
 }
 
 description = {
