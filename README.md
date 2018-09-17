@@ -1,5 +1,5 @@
 # poly1305.lua
-A Lua binding for https://github.com/floodyberry/poly1305-donna
+A Lua binding for https://github.com/floodyberry/poly1305-donna  
 Tested with Lua 5.2 only.
 
 ## Build
