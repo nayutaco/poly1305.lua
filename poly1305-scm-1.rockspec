@@ -19,7 +19,7 @@ build = {
       poly1305 = {
         sources = {"binding.c", "poly1305-donna/poly1305-donna.c"},
         libraries = {"lua5.2"},
-        incdirs = {"/usr/include/lua5.2", "./poly1305-donna"}
+        incdirs = {"./poly1305-donna"}
       }
     }
 }
