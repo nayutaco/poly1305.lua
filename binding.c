@@ -4,9 +4,9 @@
 #include "poly1305-donna.h"
 
 static int poly1305_auth_binding(lua_State *L) {
-  unsigned int msglen;
-  unsigned char *msg = luaL_checklstring(L, 1, &msglen);
-  unsigned char *key = luaL_checkstring(L, 2);
+  size_t msglen;
+  const unsigned char *msg = luaL_checklstring(L, 1, &msglen);
+  const unsigned char *key = luaL_checkstring(L, 2);
 
   unsigned char mac[16];
   poly1305_auth(mac, msg, msglen, key);
